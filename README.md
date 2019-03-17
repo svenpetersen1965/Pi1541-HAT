@@ -1,5 +1,6 @@
 # Pi1541-HAT
-Just another Pi1541-HAT
+Just another Pi1541-HAT. Please refer to Steve Whites project page (https://cbm-pi1541.firebaseapp.com/), who had the idea for the project and develops the software running in the Raspberry Pi.
+
 There are several Pi1541-HATs, which are all good, nevertheless I have decided to make my own HAT. 
 
 1. It has detachable display, switches and IEC-Bus boards
