@@ -1,0 +1,112 @@
+// Sample options.txt configuration file for Pi1541
+
+
+
+// If you would like to change the drive number then specify it here (8 is the default)
+//deviceID = 9
+
+// If you are using the split line hardware option (ie Option B) then you need to specify this option
+splitIECLines = 1
+// If you are using some type of hardware that requires the lines to be inverted then specify these options here
+//invertIECInputs = 1
+//If you are using a 7407
+//invertIECOutputs = 0
+
+// If you are using the Pi's composite video out then these options allow you to experiment with the display resolution
+ScreenWidth = 682
+ScreenHeight = 384
+
+// By default Pi1541 will search the root of the SD card for a ROM file and use this for ROM1.
+// The first file found with either of the following names will be used; d1541.rom, dos1541, d1541II, Jiffy.bin
+// You can override the default ROM1 by specifying it here
+//ROM1 = YourDefaultRom
+// You can specify additional ROMS here (up to 7)
+// You can then use the function keys (F1-F7) on the keyboard to change which one you would like to use (only in browse mode and not in emulation mode)
+// You can also use the buttons to swap ROMs by holding down button 1 and pressing one other buttons 2-5
+// .LST files can also specify one of these ROMS that will automatically be selected when the LST file is loaded.
+//ROM2 = Jiffy.bin
+//ROM3 = d1541II
+
+// The rate (in seconds) a long selection is scrolled
+scrollHighlightRate = 0.07
+
+// Enable RAMBoard emulation - 8k drive RAM expansion at 0x8000
+//RAMBOard = 1
+
+ChargenFont = chargen		// 8 bit font file
+
+// If using CBMFileBrowser then it is best to specify this option. When the computer resets the Pi will always revert back to the root folder ready to load CBMFileBrowser again.
+// OnResetChangeToStartingFolder = 1
+
+// If you use FB64 (CBMFileBrowser) and want to use a fast loader cartridge (AR6, EFL, FC3) to load it then use this option to automatically mount it. 
+// AutoMountImage = fb.d64 // You MUST have a disk image in \1541 with this filename
+
+// If you are using a FB128 in 128 mode you can get FB128 to auto boot using this option
+//AutoBootFB128 = 1
+
+// If you are using a 128 you can auto boot anything using this option
+// This over-rides AutoBootFB128
+//128BootSectorName = bootsect.128
+
+// If you would ever like to disable browse mode completely you can do so here
+//DisableSD2IECCommands = 1
+
+// This option displays the IEC bus activity on the bottom of the Pi's screen
+GraphIEC = 1
+
+// If you have hardware with a peizo buzzer (the type without a generator) then you can use this option to hear the head step
+SoundOnGPIO = 1
+SoundOnGPIODuration = 70 // Length of buzz in micro seconds
+SoundOnGPIOFreq = 900 // Frequency of buzz in Hz
+
+// You can create 320x240 PNG files with the same name as your disk images. With this option turned on they will be displayed on the Pi's screen.
+//DisplayPNGIcons = 1
+
+// If you would like to specify what file will be loaded by LOAD"*" in browse mode then specify it here
+// StarFileName = fb64
+
+// Alt-N creates a new disk image.
+// Names are formed automatically as autoname001.d64, autoname002.d64 etc...
+// change the base of the filename here
+//AutoBaseName = autoname
+
+// If you are using a LCD screen then specify it here
+//LCDName = ssd1306_128x64
+//LCDName = ssd1306_128x32
+LCDName = sh1106_128x64
+// If you are using a LCD screen and you would like PageUp and PageDown keys to work with it then specify this option
+KeyboardBrowseLCDScreen = 1
+
+// change startup logo on oled - 1541ii or 1541classic
+//LcdLogoName = 1541ii
+LcdLogoName = 1541classic
+//LcdLogoName = customfile.raw
+
+// If you are using I2C LCD you can optionally change what pins it is connected to.
+// (defaults to 0 for non-split lines (Option A) or 1 for split lines (Option B))
+//i2cBusMaster = 0 //SDA - pin 27 SCL - pin 28
+i2cBusMaster = 1 //SDA - pin 3 SCL - pin 5
+i2cLcdAddress = 60	// I2C display address in decimal and shifted. 60 == 0x78, 61 == 0x7A
+//i2cLcdFlip = 1 // Rotate i2c LCD screen 180 degrees
+//i2cLcdOnContrast = 127 // Allows you to adjust the contrast on your i2c LCD screen
+//i2cScan = 1 // scan i2c bus and display addresses on screen
+
+//QuickBoot = 0		// faster startup
+ShowOptions = 0	// display some options on startup screen 
+IgnoreReset = 0
+
+// You can remap the physical button functions
+// numbers correspond to the standard board layout
+buttonEnter = 1
+buttonUp = 2
+buttonDown = 3
+buttonBack = 4
+buttonInsert = 5
+
+// Gives you the option to use the font specified by the "ChargenFont" option on the OLED.
+// If you are using Commodore's chargen ROM this will double the amount of lines of text on the OLED.
+i2cLcdUseCBMChar = 1
+
+// When using this option Pi1541 will lower case all file names sent back to the computer.
+// This can be useful when using FB as it will in-turn display all file names in upper case.
+lowercaseBrowseModeFilenames = 1

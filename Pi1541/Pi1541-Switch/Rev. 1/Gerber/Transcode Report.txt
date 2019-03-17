@@ -1,0 +1,93 @@
+
+
+   ---- Transcoding 'X:\Projekte\_Eigene\Pi1541\Pi1541-Switch\Rev. 1\Gerber\gerber_Pi1541_Switch.crc' ----   Wed Feb 27 17:13:12 2019
+
+D10   --> D100
+D11   --> D101
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'X:\Projekte\_Eigene\Pi1541\Pi1541-Switch\Rev. 1\Gerber\gerber_Pi1541_Switch.out' ----   Wed Feb 27 17:13:12 2019
+
+D12   --> D102
+D13   --> D103
+D14   --> D104
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'X:\Projekte\_Eigene\Pi1541\Pi1541-Switch\Rev. 1\Gerber\gerber_Pi1541_Switch.plc' ----   Wed Feb 27 17:13:12 2019
+
+D12   --> D105
+D13   --> D106
+D14   --> D107
+D15   --> D108
+D16   --> D109
+D17   --> D110
+D18   --> D111
+D19   --> D112
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'X:\Projekte\_Eigene\Pi1541\Pi1541-Switch\Rev. 1\Gerber\gerber_Pi1541_Switch.pls' ----   Wed Feb 27 17:13:13 2019
+
+D12   --> D113
+D13   --> D114
+D14   --> D115
+D15   --> D116
+D16   --> D117
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'X:\Projekte\_Eigene\Pi1541\Pi1541-Switch\Rev. 1\Gerber\gerber_Pi1541_Switch.stc' ----   Wed Feb 27 17:13:13 2019
+
+D12   --> D118
+D13   --> D119
+D14   --> D120
+D15   --> D121
+D16   --> D122
+D17   --> D123
+D18   --> D124
+D19   --> D125
+D20   --> D126
+D21   --> D127
+D22   --> D128
+D23   --> D129
+D24   --> D130
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'X:\Projekte\_Eigene\Pi1541\Pi1541-Switch\Rev. 1\Gerber\gerber_Pi1541_Switch.sts' ----   Wed Feb 27 17:13:13 2019
+
+D12   --> D131
+D13   --> D132
+D14   --> D133
+D15   --> D134
+D16   --> D135
+D17   --> D136
+D18   --> D137
+D19   --> D138
+D21   --> D139
+D23   --> D140
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'X:\Projekte\_Eigene\Pi1541\Pi1541-Switch\Rev. 1\Gerber\gerber_Pi1541_Switch.top' ----   Wed Feb 27 17:13:13 2019
+
+D12   --> D141
+D13   --> D142
+D14   --> D143
+D15   --> D144
+D20   --> D145
+D21   --> D146
+D22   --> D147
+D23   --> D148
+D24   --> D149
+D25   --> D150
+D26   --> D151
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'X:\Projekte\_Eigene\Pi1541\Pi1541-Switch\Rev. 1\Gerber\excellon_Pi1541_Switch.ndk' ----   Wed Feb 27 17:13:25 2019
+
+T1   --> T6
+-----------------------------------------------------------------
