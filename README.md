@@ -11,6 +11,6 @@ There are several Pi1541-HATs, which are all good, nevertheless I have decided t
 
 I have made it this way to add flexibility to the HAT when it comes to be installed in an enclose and also alows a lower profile enclosure, since the high IEC-bus jacks are not above HAT level.
 
-As a replacement for the switch board, a pcb with a rotary encoder with push button is being developed. This would add a bit more comfort while navigating through the directories.
+As a replacement for the switch board, a pcb with a rotary encoder with push button has been developed. This adds a quite bit more comfort while navigating through the directories. It mimiks the select, up and down button. This way, it works with the regular firmware. Depending on the amount of text to be scrolled on the display, some pulses might get lost, which is hard to notice and does not reduce the usability.
 
 <img src="https://github.com/svenpetersen1965/Pi1541-HAT/blob/master/Pi1541/Pi1541-Rot/Rev.%200/pictures/1788_-_Testing.jpg" width="300" alt="Rotary Encoder Board">
