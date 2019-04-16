@@ -13,4 +13,6 @@ I have made it this way to add flexibility to the HAT when it comes to be instal
 
 As a replacement for the switch board, a pcb with a rotary encoder with push button has been developed. This adds a quite bit more comfort while navigating through the directories. It mimiks the select, up and down button. This way, it works with the regular firmware. Depending on the amount of text to be scrolled on the display, some pulses might get lost, which is hard to notice and does not reduce the usability.
 
-<img src="https://github.com/svenpetersen1965/Pi1541-HAT/blob/master/Pi1541/Pi1541-Rot/Rev.%200/pictures/1788_-_Testing.jpg" width="300" alt="Rotary Encoder Board">
+<img src="https://github.com/svenpetersen1965/Pi1541-HAT/blob/master/Pi1541/Pi1541-HAT/Rev.%201/pictures/1810_-_Pi1541_in_case.JPG" width="300" alt="Pi1541 withRotary Encoder Board in plastic enclusore">
+
+<img src="https://github.com/svenpetersen1965/Pi1541-HAT/blob/master/Pi1541/Pi1541-HAT/Rev.%201/pictures/1806_-_Pi1541_open.JPG" width="300" alt="Pi1541 withRotary Encoder Board (case open)">
