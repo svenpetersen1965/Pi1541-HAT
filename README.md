@@ -16,3 +16,7 @@ As a replacement for the switch board, a pcb with a rotary encoder with push but
 <img src="https://github.com/svenpetersen1965/Pi1541-HAT/blob/master/Pi1541/Pi1541-HAT/Rev.%201/pictures/1810_-_Pi1541_in_case.JPG" width="300" alt="Pi1541 withRotary Encoder Board in plastic enclusore">
 
 <img src="https://github.com/svenpetersen1965/Pi1541-HAT/blob/master/Pi1541/Pi1541-HAT/Rev.%201/pictures/1806_-_Pi1541_open.JPG" width="300" alt="Pi1541 withRotary Encoder Board (case open)">
+
+The kernal revision v1.21 supports the connection of a rotary encoder. Rev. 2 of the HAT PCB provides the connection of a rotary encoder module (KY-040), which si widely available on ebay etc.
+
+<img src="https://github.com/svenpetersen1965/Pi1541-HAT/blob/master/Pi1541/Pi1541-HAT/Rev.%202/pictures/3182_-_KY-040_rotary_encoder.JPG" width="300" alt="KY-040">
