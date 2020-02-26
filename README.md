@@ -20,3 +20,5 @@ As a replacement for the switch board, a pcb with a rotary encoder with push but
 The kernal revision v1.21 supports the connection of a rotary encoder. Rev. 2 of the HAT PCB provides the connection of a rotary encoder module (KY-040), which is widely available on ebay etc. This is ment to be as a cheaper alternative for the otary encoder board of this project. 
 
 <img src="https://github.com/svenpetersen1965/Pi1541-HAT/blob/master/Pi1541/Pi1541-HAT/Rev.%202/pictures/3182_-_KY-040_rotary_encoder.JPG" width="300" alt="KY-040">
+
+The Rev. 2 of HAT and Switch and the (newest) Rev. 1 of the IEC board were tested and are fully functional.
