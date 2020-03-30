@@ -7,6 +7,8 @@ There are several Pi1541-HATs, which are all good, nevertheless I have decided t
 
 2. There is a barrel connector on the IEC-Bus Board, so no requirement for using the micro USB and no side entry for the enclosure required.
 
+Find some info on the required cable making <a href="http://tech.guitarsite.de/cable_making.html">on my website</a>
+
 <img src="https://github.com/svenpetersen1965/Pi1541-HAT/blob/master/Pi1541/Pi1541-HAT/Rev.%201/pictures/0439_-_Pi1541-HAT_test_set-up.JPG" width="300" alt="Pi1541 with the detachable switch and iec board">
 
 I have made it this way to add flexibility to the HAT when it comes to be installed in an enclose and also alows a lower profile enclosure, since the high IEC-bus jacks are not above HAT level.
